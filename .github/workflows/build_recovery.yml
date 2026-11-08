@@ -1,6 +1,6 @@
 name: Build OrangeFox Recovery
 
-on: 
+on:
   workflow_dispatch:
     inputs:
       BRANCH:
