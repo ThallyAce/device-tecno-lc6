@@ -51,7 +51,7 @@ jobs:
         mka recoveryimage
 
     - name: Upload Recovery Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: OrangeFox-LC6-Recovery
         path: workspace/out/target/product/lc6/*.img
